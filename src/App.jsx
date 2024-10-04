@@ -1,11 +1,12 @@
 import './App.css'
-import Page1 from './pages/page1'
+import Pageprincipal from './pages/Pageprincipal'
+
 
 export default function App() {
 
   return (
     <>
-      <Page1/>
+      <Pageprincipal/>
     </>
   )
 }

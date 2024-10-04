@@ -10,7 +10,7 @@ async function fetchData(url) {
     return json
 }
 
-export default function Page1() {
+export default function Pageprincipal() {
 
     const [find, setFind] = useState('winter'); // Valor de busqueda y nuevo valor
     const [result, setResult] = useState([])
