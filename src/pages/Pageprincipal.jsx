@@ -29,7 +29,7 @@ export default function Pageprincipal() {
 
     return (
 
-        <div className="container bg-amber-50 p-3 w-full grid gap-y-4">
+        <div className="container bg-gradient-to-tl from-amber-100 to-amber-50 p-3 w-full grid gap-y-4">
             <header className="flex my-12 font-bold text-slate-900 text-5xl w-full justify-center ">
                 <h1 >My Galery</h1>
             </header>
@@ -38,7 +38,8 @@ export default function Pageprincipal() {
                 <div className="max-w-lg mx-auto w-full">
                     <div className="relative w-full">
                         <input onChange={(e) => setFind(e.target.value)} type="text" placeholder="Search..." />
-                        <button onClick={getData} className="absolute top-0 end-0 p-2.5 px-7 text-sm font-medium h-full text-white bg-slate-900 rounded-e-lg border border-slate-900 hover:bg-slate-900 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-slate-900">
+                        <button onClick={getData} className="absolute top-0 end-0 p-2.5 px-7 text-sm font-medium h-full text-white bg-slate-900 rounded-e-lg border border-slate-900 hover:bg-slate-900 focus:outline-none dark:hover:bg-slate-700
+                        focus:ring-2 focus:ring-blue-950">
                             <Icons />
                         </button>
                     </div>
